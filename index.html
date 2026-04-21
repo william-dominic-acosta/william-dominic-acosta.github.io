@@ -3,62 +3,71 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>William Acosta | Technology & Operations Leader</title>
+<title>William Acosta | Senior Operations Leader</title>
+
 <style>
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #0f172a;
-    color: #f1f5f9;
+    color: #e5e7eb;
 }
+
 .container {
-    width: 90%;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
+    padding: 20px;
 }
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 0;
-}
-.hero {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    padding: 60px 0;
-}
-.hero img {
-    width: 220px;
-    border-radius: 12px;
-}
-h1 {
-    font-size: 40px;
-    margin: 0;
-}
-h2 {
+
+h1, h2 {
     color: #38bdf8;
 }
-.section {
-    padding: 50px 0;
+
+.header {
+    text-align: center;
+    padding: 40px 20px;
 }
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #38bdf8;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #94a3b8;
+}
+
+.section {
+    margin-top: 40px;
+}
+
 .card {
     background: #1e293b;
     padding: 20px;
+    margin-top: 15px;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
+
+ul {
+    padding-left: 20px;
+}
+
 .highlight {
     color: #22c55e;
     font-weight: bold;
 }
-footer {
-    text-align: center;
-    padding: 30px;
-    font-size: 14px;
-    color: #94a3b8;
-}
-a {
+
+.contact a {
     color: #38bdf8;
     text-decoration: none;
 }
@@ -66,101 +75,105 @@ a {
 </head>
 
 <body>
-
 <div class="container">
 
-<header>
-    <h2>William Acosta</h2>
-    <div>
-        <a href="mailto:william.dominic.acosta@gmail.com">Contact</a>
+<div class="header">
+    <img src="profile.jpg" alt="William Acosta" class="profile-img">
+    <h1>William Acosta</h1>
+    <p>Senior Operations Leader | Supply Chain & Reverse Logistics</p>
+    <p>Fort Worth, TX | 817-719-7005 | william.dominic.acosta@gmail.com</p>
+</div>
+
+<div class="section">
+    <h2>Profile</h2>
+    <div class="card">
+        Results-driven operations leader specializing in supply chain and reverse logistics. Proven track record delivering multimillion-dollar impact through automation, forecasting accuracy, and large-scale operational transformations. Expert at scaling operations, improving KPIs, and leading cross-functional teams in high-volume environments.
     </div>
-</header>
+</div>
 
-<section class="hero">
-    <img src="your-photo.jpg" alt="William Acosta">
-    <div>
-        <h1>Director / VP of Technology & Operations</h1>
-        <p>
-            I build scalable operations, automate complex systems, and drive multi-million dollar efficiency gains across supply chain and reverse logistics environments.
-        </p>
-        <p class="highlight">
-            $5M+ in cost savings | 100%+ efficiency gains | 1M+ device operations
-        </p>
-    </div>
-</section>
-
-<section class="section">
-    <h2>About</h2>
-    <p>
-        Results-driven operations and technology leader with deep expertise in reverse logistics, automation, and analytics. Proven track record of transforming warehouse and supply chain operations through data-driven decision making, system design, and process optimization.
-    </p>
-</section>
-
-<section class="section">
+<div class="section">
     <h2>Key Impact</h2>
+    <div class="card">
+        <ul>
+            <li><span class="highlight">30% reduction</span> in turnaround time across 1M+ devices annually</li>
+            <li><span class="highlight">75% reduction</span> in processing errors through automation</li>
+            <li><span class="highlight">31.5% reduction</span> in vendor repair losses</li>
+            <li><span class="highlight">27% increase</span> in warehouse throughput</li>
+            <li><span class="highlight">93% forecast accuracy</span> across multiple channels</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Experience</h2>
 
     <div class="card">
-        <h3>Warehouse Automation Transformation</h3>
-        <p>
-            Automated warehouse receiving and storage systems, increasing efficiency by over <span class="highlight">100%</span> and reducing labor costs by <span class="highlight">$3M annually</span>.
-        </p>
+        <h3>Samsung Electronics – Senior Manager, Trade-In Operations</h3>
+        <p>Sep 2024 – Present</p>
+        <ul>
+            <li>Lead end-to-end reverse logistics operations managing 1M+ devices annually</li>
+            <li>Delivered <span class="highlight">30% faster turnaround</span> and <span class="highlight">99% valuation accuracy</span></li>
+            <li>Reduced program budget by <span class="highlight">10%</span> while scaling operations</li>
+            <li>Automated workflows reducing errors by <span class="highlight">75%</span></li>
+            <li>Increased throughput <span class="highlight">27%</span> via automation and tracking systems</li>
+        </ul>
     </div>
 
     <div class="card">
-        <h3>PO RMA Repair System</h3>
-        <p>
-            Designed and deployed a repair tracking and reconciliation system that generated over <span class="highlight">$2M in annual savings</span> while improving operational visibility.
-        </p>
+        <h3>Verizon – Senior Manager, Reverse Operations</h3>
+        <p>Jan 2019 – Sep 2024</p>
+        <ul>
+            <li>Automated 100+ processes using SQL, SAP, Python, and Alteryx</li>
+            <li>Built executive dashboards enabling full operational visibility</li>
+            <li>Reduced vendor losses <span class="highlight">31.5%</span> through process redesign</li>
+            <li>Led SAP enhancements and cross-functional adoption</li>
+        </ul>
     </div>
 
     <div class="card">
-        <h3>Trade-In Operations Scale</h3>
-        <p>
-            Led operations supporting <span class="highlight">1M+ devices annually</span>, improving turnaround time by 30% and increasing accuracy to 99%.
-        </p>
-    </div>
-
-</section>
-
-<section class="section">
-    <h2>Experience Highlights</h2>
-
-    <div class="card">
-        <h3>Samsung Electronics</h3>
-        <p>Senior Manager, Trade-In Operations</p>
-        <p>
-            Reduced processing errors by 75%, increased throughput 27%, and deployed automation improving accuracy and efficiency across the entire operation.
-        </p>
+        <h3>Northrop Grumman – Logistics Analyst</h3>
+        <p>2017 – 2019</p>
+        <ul>
+            <li>Reduced order creation time <span class="highlight">90%</span> via SAP automation</li>
+            <li>Enabled <span class="highlight">100% on-time delivery</span> through tracking systems</li>
+        </ul>
     </div>
 
     <div class="card">
-        <h3>Verizon Wireless</h3>
-        <p>Senior Manager, Reverse Operations</p>
-        <p>
-            Reduced vendor repair losses by 31.5% and automated 100+ reporting workflows, enabling real-time decision making.
-        </p>
+        <h3>Valeo – Logistics Planner</h3>
+        <p>2015 – 2017</p>
+        <ul>
+            <li>Managed flow of 2M+ parts annually using JIT methodology</li>
+            <li>Improved production planning through SAP MPS system enhancements</li>
+        </ul>
     </div>
-
-</section>
-
-<section class="section">
-    <h2>Skills</h2>
-    <p>
-        SQL | SAP | Python | Tableau | Alteryx | Automation | Data Analytics | Supply Chain | Reverse Logistics | Process Optimization
-    </p>
-</section>
-
-<section class="section">
-    <h2>Contact</h2>
-    <p>Email: william.dominic.acosta@gmail.com</p>
-    <p>Phone: 817-719-7005</p>
-</section>
-
-<footer>
-    © 2026 William Acosta
-</footer>
 
 </div>
 
+<div class="section">
+    <h2>Skills</h2>
+    <div class="card">
+        SQL, SAP (ECC & S/4HANA), Python, VBA, Tableau, Alteryx, Excel<br><br>
+        Forecasting, Demand Planning, Automation, Reverse Logistics, Vendor Management, Continuous Improvement
+    </div>
+</div>
+
+<div class="section">
+    <h2>Education</h2>
+    <div class="card">
+        B.S. Logistics & Supply Chain Management<br>
+        University of North Texas
+    </div>
+</div>
+
+<div class="section contact">
+    <h2>Contact</h2>
+    <div class="card">
+        Email: <a href="mailto:william.dominic.acosta@gmail.com">william.dominic.acosta@gmail.com</a><br>
+        Phone: 817-719-7005
+    </div>
+</div>
+
+</div>
 </body>
 </html>
